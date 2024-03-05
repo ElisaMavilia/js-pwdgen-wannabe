@@ -17,4 +17,4 @@ console.log(randomNumber);
 
 let password = firstname+lastname+favoriteColor+randomNumber;
 
-document.getElementById("titolo").innerHTML = `La tua password è ${password}`;
+document.getElementById("titolo").innerHTML = `La tua password è: ${password}`;
