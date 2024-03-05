@@ -12,7 +12,7 @@ console.log(lastName);
 let favoriteColor = prompt("Scrivi il tuo colore preferito");
 console.log(favoriteColor);
 
-let randomNumber = 23;
+let randomNumber = Math.round(Math.random() * 100);
 console.log(randomNumber);
 
 let password = firstName+lastName+favoriteColor+randomNumber;
